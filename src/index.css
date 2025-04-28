@@ -1,0 +1,291 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: Arial, Helvetica, sans-serif;
+  /* overflow-x:hidden; */
+  user-select: none;
+}
+
+.home{
+  min-width:100%;
+  min-height:100vh;
+  background:cornflowerblue;
+}
+
+.home h1{
+  text-align: center;
+  position:relative;
+  top:100px;
+  color:white;
+}
+
+.home p{
+  width:500px;
+  text-align:center;
+  position:relative;
+  top:130px;
+  left:450px;
+  font-size:20px;
+}
+
+.home button{
+  width:300px;
+  height:45px;
+  background:yellow;
+  color:black;
+  border:none;
+  cursor: pointer;
+  position:relative;
+  top:200px;
+  left:550px;
+  font-size:18px;
+  letter-spacing: 2px;
+}
+
+
+.about{
+  min-width:100%;
+  min-height:100vh;
+  background:pink;
+}
+
+.about h1{
+  text-align:center;
+  position:relative;
+  top:100px;
+
+}
+
+.about p{
+  width:500px;
+  position:relative;
+  top:130px;
+  left:450px;
+  font-size: 20px;
+}
+
+.services{
+  min-width:100%;
+  min-height:100vh;
+  background:purple;
+}
+
+.services h1{
+  text-align:center;
+  position:relative;
+  top:100px;
+  color:white;
+}
+
+.services p{
+  width:500px;
+  position:relative;
+  top:130px;
+  left:450px;
+  font-size: 20px;
+  color:yellow;
+}
+
+.contact{
+  min-width:100%;
+  min-height:100vh;
+  background:silver;
+}
+
+.contact h1{
+  text-align:center;
+  position:relative;
+  top:100px;
+  color:white;
+}
+
+.contact p{
+  width:500px;
+  position:relative;
+  top:130px;
+  left:450px;
+  font-size: 20px;
+  color:black;
+}
+
+.errorpage{
+  min-width:100%;
+  min-height:100vh;
+  background:maroon;
+}
+
+.errorpage h1{
+  text-align:center;
+  position:relative;
+  top:100px;
+  color:white;
+}
+
+.errorpage p{
+  width:500px;
+  position:relative;
+  top:130px;
+  left:450px;
+  font-size: 20px;
+  color:white;
+  
+}
+
+.errorpage button{
+  width:300px;
+  height:45px;
+  background:yellow;
+  color:black;
+  border:none;
+  cursor: pointer;
+  position:relative;
+  top:200px;
+  left:550px;
+  font-size:18px;
+  letter-spacing: 2px;
+}
+
+.navbar{
+  min-width:100%;
+  min-height:100px;
+  background:silver;
+}
+
+.navbar .mode{
+  cursor: pointer;
+  font-size: 40px;
+  position:relative;
+  left:600px;
+}
+
+.navbar button{
+  width:150px;
+  height:30px;
+  border-radius: 30px;
+  border:none;
+  cursor: pointer;
+}
+.link{
+  position:relative;
+  top:30px;
+  left:900px;
+  margin:30px;
+  text-decoration: none;
+  color:white;
+  font-size:17px;
+  font-weight:bold;
+}
+
+.search{
+  min-width:100%;
+  min-height:100vh;
+  background:orange;
+}
+
+.search input{
+  width:800px;
+  height:60px;
+  border:3px solid white;
+  border-radius: 30px;
+  background:transparent;
+  text-align:center;
+  color:white;
+}
+
+.search input::placeholder{
+  color:white;
+  text-align:center;
+}
+
+
+
+
+.footer{
+  min-width:100%;
+  min-height:100px;
+  background:silver;
+}
+
+.footer p{
+  text-align:center;
+  position:relative;
+  top:25px;
+  font-size:18px;
+  letter-spacing: 2px;
+}
+
+
+.jsone{
+  min-width:100%;
+  min-height:100vh;
+  background:cornflowerblue;
+}
+
+.jsone h2{
+  color:white;
+  font-size: 40px;
+}
+
+.jsone button{
+  width:300px;
+  height:45px;
+  border:none;
+  border-radius: 30px;
+  background:yellow;
+  color:black;
+  letter-spacing: 2px;
+  position:relative;
+  top:100px;
+  left:100px;
+  cursor: pointer;
+}
+
+.loginform{
+  min-width:100%;
+  min-height:100vh;
+  background:cornflowerblue;
+}
+
+
+.loginform form{
+  width:600px;
+  height:300px;
+  background:white;
+  border-radius: 10px;
+  position:relative;
+  top:50px;
+  left:200px;
+  box-sizing: border-box;
+  padding:20px;
+}
+
+.loginform form input{
+  width:80%;
+  height:45px;
+  margin:10px;
+  background:white;
+  border:3px solid gray;
+  position:relative;
+  left:30px;
+  top:20px;
+  font-size:17px;
+  text-align:center;
+}
+
+::placeholder{
+  text-align:center;
+  color:gray;
+}
+
+.loginform form button{
+  width:200px;
+  height:45px;
+  background:dodgerblue;
+  color:white;
+  border-radius:30px;
+  border:none;
+  position:relative;
+  top:40px;
+  left:150px;
+  cursor:pointer;
+}
